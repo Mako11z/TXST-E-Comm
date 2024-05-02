@@ -1,0 +1,6 @@
+.modal-body { 
+    height: 250px;
+    width: 450px;
+ }
+.modalCard { justify-content: center; align-items: center; display: flex; background-color: #fff; }
+.close { font-size: 21px; cursor: pointer }

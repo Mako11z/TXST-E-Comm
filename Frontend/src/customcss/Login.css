@@ -1,0 +1,185 @@
+/* General body and background styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* More modern font */
+    background-color: #e7eff6; /* Lighter background for the entire page */
+}
+
+/* Styling the new login section with a background image and more spacing */
+.new-login-section {
+    
+    background-image: url('src/assets/images/login-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 15px; /* Increased padding */
+}
+
+/* Container within the new login section for better alignment and spacing */
+.new-container {
+    margin-right: 50%;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.95); /* Higher transparency */
+    padding: 60px; /* Increased padding inside the container */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    width: 80%; /* Wider container */
+    max-width: 500px; /* Larger fixed width for desktops */
+    background: linear-gradient(to top, #aa72af 0%, #e7eff6 70%);
+    
+}
+
+.new-account-wrapper {
+    width: 100%;
+}
+
+.new-title {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px; /* More space below the title */
+    font-size: 28px; /* Larger font size for the title */
+}
+
+.new-account-form input[type="email"],
+.new-account-form input[type="password"],
+.new-account-form input[type ="text"] {
+    width: 100%;
+    padding: 15px 10px; /* Larger padding for input fields */
+    margin-bottom: 20px; /* Increased margin for spacing between fields */
+    border: 2px solid #034078;
+    border-radius: 5px;
+}
+
+.new-error-message {
+    color: #ff0000;
+    margin-bottom: 15px; /* Increased space below error message */
+}
+
+.new-button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 15px 20px; /* Thicker padding for a larger button */
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px; /* Larger font size for button text */
+    font-weight: 600;
+    
+}
+
+.new-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.new-checkgroup {
+    display: flex; /* Ensures the checkbox and label are in a flex container */
+    align-items: center; /* Vertically aligns the checkbox and label */
+    cursor: pointer; /* Changes the mouse cursor to a pointer when hovered over the checkbox area */
+    margin-bottom: 5%;
+}
+
+.new-checkgroup input[type="checkbox"] {
+    margin-right: 5px; /* Adds space between the checkbox and the label */
+    cursor: pointer; /* Ensures the cursor changes to a pointer over the checkbox */
+}
+
+.new-checkgroup label {
+    margin: 0; /* Resets any default margin that might push the label down */
+    cursor: pointer; /* Ensures the cursor changes to a pointer over the label */
+    white-space: nowrap; /* Prevents the text from wrapping onto multiple lines */
+}
+
+.new-social-icons {
+    list-style: none; /* Removes any bullet points */
+    padding: 0; /* Resets padding */
+    margin: 0; /* Resets margin */
+    margin-top: 10%;
+}
+
+.new-social-icons li a {
+    color: #ffffff;
+    font-size: 20px; /* Larger icons */
+}
+
+.new-social-icons li {
+    margin: 10px 0; /* Add some vertical margin for space between items */
+}
+
+.new-account-bottom {
+    text-align: center;
+    margin-top: 20px; /* Adds more space above the sign up area */
+}
+
+.new-account-message {
+    display: inline-block; /* Makes it easier to control as a single block */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #000000; /* Sets a gentle, neutral color for the text */
+    margin-right: 5px; /* Optional: Adds a small space between text and the link */
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.new-signup-link {
+    background-color: #ffee00; /* Stylish blue background that fits the theme */
+    color: rgb(0, 0, 0); /* White text to contrast with the blue background */
+    padding: 10px 20px; /* Padding around the text to make it look like a button */
+    border-radius: 5px; /* Rounded corners for a softer, more button-like appearance */
+    text-decoration: none; /* Removes underline from the link */
+    font-weight: bold; /* Makes the link text bold */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for a 3D effect */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth color and press effect */
+    margin-left: 1%;
+    margin-top: 3%;
+    
+}
+
+.new-signup-link:hover, .new-signup-link:focus {
+    background-color: #f5e400; /* Darker blue when hovered or focused */
+    transform: translateY(-2px); /* Slightly raises the link when interacted with */
+}
+
+
+
+.google-btn {
+    background-color: #4285F4; /* Google's brand blue color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex; /* Ensures flexbox layout to align icon and text */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Center content horizontally */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+    transition: background-color 0.3s;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.google-btn:hover {
+    background-color: #357ae8; /* Slightly darker blue on hover */
+    transform: scale(1.05);
+}
+
+.google-btn img {
+    background-color: white; /* White background for the logo */
+    padding: 5px; /* Padding around the logo to create a boxed effect */
+    border-radius: 4px; /* Rounded corners for the logo's background */
+    width: 40px; /* Size of the logo */
+    height: auto;
+   
+    margin-right: 10px; /* Space between the image and text */
+}
+
+.new-subtitle{
+        margin-top: 5%;
+        margin-bottom: -5%;
+        text-align: center;
+
+}
