@@ -1,5 +1,7 @@
 # E-commerce Website
 
+## Check it out! https://commerce-react-js.web.app
+
 ## Overview
 
 This is an e-commerce website project developed for a school project. The website allows users to browse products, add them to their cart, and proceed with secure payments using Stripe integration.
@@ -35,10 +37,3 @@ To run the project locally, follow these steps:
 * Add products to the cart by clicking the "Add to Cart" button.
 * View and update the contents of the cart by clicking on the cart icon.
 * Proceed with payment by clicking on the "Checkout" button and following the instructions for Stripe payment.
-
-
-[Include license information here, if applicable.]
-
-Contact
-
-[Include your contact information here if you want to allow users to reach out to you.]
