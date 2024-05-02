@@ -26,7 +26,7 @@ This is an e-commerce website project developed for a school project. The websit
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: [git clone <repository-url>](https://github.com/Mako11z/TXST-E-Comm.git)
+1. Clone the repository: git clone https://github.com/Mako11z/TXST-E-Comm.git
 2. Open and navigate to all 3 directories
 3. npm i
 4. npm start
